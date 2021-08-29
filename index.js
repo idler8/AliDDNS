@@ -46,3 +46,8 @@ setInterval(() => {
       if (++errorTick > 5) process.exit(1);
     });
 }, timeout);
+
+process.on('SIGTERM',function(){
+  console.log(new Date().toISOString() + ':SIGTERM');
+  process.exit(0);
+})
