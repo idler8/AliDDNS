@@ -1,0 +1,11 @@
+{
+  "name": "aliyun-ddns",
+  "version": "1.0.0",
+  "description": "自动调整阿里云DNS解析",
+  "main": "index.js",
+  "author": "idler8.com",
+  "license": "MIT",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.10"
+  }
+}
